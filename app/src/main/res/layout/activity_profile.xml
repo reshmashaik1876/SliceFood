@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.s528761.slicefood.Profile">
+
+
+
+
+    <ImageView
+        android:id="@+id/proImg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="46dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.228"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.02"
+        app:srcCompat="@drawable/slicefood"
+        android:layout_marginStart="46dp"
+        android:layout_marginEnd="8dp" />
+
+    <Button
+        android:id="@+id/proBack"
+        android:layout_width="162dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:onClick="proBackBT"
+        android:text="Back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.558"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.767"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp" />
+
+    <GridLayout
+        android:layout_width="226dp"
+        android:layout_height="116dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:columnCount="2"
+        android:rowCount="6"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.53"
+        tools:layout_editor_absoluteX="78dp">
+
+        <TextView
+            android:id="@+id/proName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_row="0"
+            android:text="Name" />
+
+        <TextView
+            android:id="@+id/proID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_row="1"
+            android:text="Employee ID" />
+
+        <TextView
+            android:id="@+id/proRole"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_row="2"
+            android:text="Role" />
+
+        <TextView
+            android:id="@+id/proDept"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_row="3"
+            android:text="Department" />
+
+        <TextView
+            android:id="@+id/proWage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_row="4"
+            android:text="Hourly wage" />
+
+        <TextView
+            android:id="@+id/proP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_row="5"
+            android:text="Performance Rate" />
+
+        <TextView
+            android:id="@+id/proName1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_row="0"
+            android:text="John Smith" />
+
+        <TextView
+            android:id="@+id/proID2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_row="1"
+            android:text="123456" />
+
+        <TextView
+            android:id="@+id/proRole2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_row="2"
+            android:text="Student Manager" />
+
+        <TextView
+            android:id="@+id/proDept2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_row="3"
+            android:text="Chick-fil-A" />
+
+        <TextView
+            android:id="@+id/proWage2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_row="4"
+            android:text="8.20" />
+
+        <TextView
+            android:id="@+id/proP2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_row="5"
+            android:text="3.0/5.0" />
+
+
+    </GridLayout>
+
+
+</android.support.constraint.ConstraintLayout>
