@@ -17,4 +17,14 @@ public class AdminMenu extends AppCompatActivity {
         Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);
     }
+    //navigating to Schedule
+    public void scAD(View v){
+        Intent intent = new Intent(this, AdminSchedule.class);
+        startActivity(intent);
+    }
+    //navigating to admin menu
+    public void trackBT(View v){
+        Intent intent = new Intent(this, TrackLocation.class);
+        startActivity(intent);
+    }
 }

@@ -22,7 +22,9 @@
         <activity android:name=".MainMenu" />
         <activity android:name=".AdminMenu" />
         <activity android:name=".Schedule" />
-        <activity android:name=".Profile"></activity>
+        <activity android:name=".Profile" />
+        <activity android:name=".AdminSchedule" />
+        <activity android:name=".TrackLocation"></activity>
     </application>
 
 </manifest>

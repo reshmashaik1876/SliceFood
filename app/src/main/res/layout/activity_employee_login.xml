@@ -50,12 +50,10 @@
 
     <Button
         android:id="@+id/signUpTV"
-        android:layout_width="109dp"
-        android:layout_height="47dp"
-        android:layout_alignBottom="@+id/forgotadminTV"
+        android:layout_width="125dp"
+        android:layout_height="49dp"
         android:layout_alignEnd="@+id/adminET"
         android:layout_alignRight="@+id/adminET"
-        android:layout_alignTop="@+id/forgotadminTV"
         android:layout_marginBottom="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
@@ -64,16 +62,16 @@
         android:text="Sign Up"
         android:textStyle="italic"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.166"
+        app:layout_constraintHorizontal_bias="0.176"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.866" />
+        app:layout_constraintVertical_bias="0.878" />
 
     <Button
         android:id="@+id/adminloginBT"
-        android:layout_width="109dp"
-        android:layout_height="47dp"
+        android:layout_width="117dp"
+        android:layout_height="43dp"
         android:layout_alignLeft="@+id/adminET"
         android:layout_alignParentBottom="true"
         android:layout_alignStart="@+id/adminET"
